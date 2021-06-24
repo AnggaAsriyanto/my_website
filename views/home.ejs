@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/stylesheets/home.css">
+    <title>Angga Asriyanto — Web Developer</title>
+</head>
+<body>
+    
+    <div class="navbars">   
+        <nav class="nav top">
+            <div class="project link enter">
+                <a href="projects">Projects.</a>
+                <button class="menu"><i class="fas fa-bars"></i></button>
+            </div>
+            <div class="home link enter active">
+                <a id="home" href="/">AA.</a>
+            </div>
+            <div class="about link enter">
+                <a href="about">About.</a>
+            </div>
+        </nav>
+
+        <nav class="nav bottom">
+            <div class="email enter">
+                <button class="btn-click btn"><i class="fas fa-arrow-circle-up"></i></button>
+                <div class="link-info enter">
+                    <a class="my-link show" href="mailto:anggazxcasd@gmail.com">anggazxcasd@gmail.com</a>
+                    <a class="my-link" href="mailto:halo@gmail.com">Linkedin</a>
+                </div>
+            </div>
+            <p class="local-time enter" href="#">Local time: 0:00 (am) - Mon</p>
+        </nav>
+    </div>
+
+    <main>
+
+        <div>
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+            <defs>
+            <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+            </defs>
+            <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7)" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+            </svg>
+        </div>
+
+        <div class="intro">
+            <h3 class="name me">
+               <span>Angga</span> Asriyanto
+            </h3>
+            <h1 class="prof me">
+                Web Developer.
+            </h1>
+            <h1 class="year me">
+                2020 & <span>2021</span>
+            </h1>
+        </div>
+        
+        <div class="main-focus center">
+            <div class="idea">
+                <h1>difference</h1>
+                <h1>planning imagination</h1>
+                <h1>trend creativity</h1>
+                <h1>responsive inspiration</h1>
+                <h1>fresh innovation</h1>
+                <h1>hierarchy magnificence</h1>
+                <h1>modern minimalist</h1>
+                <h1>experience</h1>
+            </div>
+        </div>
+
+        <div class="text-container center;">
+            <svg class="circle" viewBox="0 0 200 200">
+                <path id="curve" d="
+                M 25, 100
+                a 25,25 0 1,1 150,0
+                a 25,25 0 1,1 -150,0
+                " />
+                <text class="text">
+                  <textPath xlink:href="#curve" class="text-outline">
+                    Angga Asriyanto • 2020 & 2021 • Web Developer
+                    • Indonesia • • • • • • • • • • • • • • • • • • • • •
+                    • • • • • • • • • • • • • • • •
+                  </textPath>
+                </text>
+              </svg>
+        </div>
+    </main> 
+
+    <div class="bars-menu">
+        <div class="link-box">
+            <div class="link-m">
+                <a class="about-m fm"  href="about">About</a>
+                <a class="projects-m fm"  href="projects">Projects</a>
+            </div>
+
+            <div class="email-m">
+                <div class="link-info-m"> 
+                    <a class="fm my-link-m show" href="mailto:anggazxcasd@gmail.com">anggazxcasd<span>@</span>gmail.com</a>
+                    <a class="my-link-m fm" href="mailto:halo@gmail.com">Linkedin</a>
+                </div>
+                <button class="btn-click"><i class="fas fa-arrow-circle-down"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cursor cursor--small"></div>
+    <canvas class="cursor cursor--canvas" resize></canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.15/paper-full.min.js" integrity="sha512-ovjLI1ZcZe6bw+ImQ21r+sv8q/Vwob2kq7tFidK6E1LWfi0T4uobbmpfEU1//a9h9o5Kkt+MnMWf6rWlg0EiMw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js" integrity="sha512-UFPpekaMf0TrCIkPv9mRT3reo/HzSjkOLq57Rtzb+E1ej1TRUOes6J/Ge4uZXyxWA9b4i5DqSZns79YaUoJ2kA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="scripts/home.js"></script>
+</body>
+</html>
